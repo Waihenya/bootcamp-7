@@ -34,15 +34,15 @@ f = [(10,20,40),(10,40),(4,5,50)]
     a:10, b:40
     a:4,  b:5,   c:50
 '''
-'''
+
 for x in f:
-	if  x==2:
+	if  len(x)==2:
 		print "a:{}, b: {}".format(*x)
 		
 	else:
 		print " a: {}, b: {}, c: {}".format(*x)
 		
-'''
+
 def super_sum(*args):
 	'''
 	Takes in variable number of items,
